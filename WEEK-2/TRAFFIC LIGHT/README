@@ -1,0 +1,38 @@
+# Traffic Light Controller
+
+## Objective
+To simulate an intelligent traffic signal system using Arduino.
+
+## Components Required
+
+- Arduino UNO
+- 3 LEDs (Red, Yellow, Green)
+- 3 × 220Ω Resistors
+- Push Button
+- Breadboard
+- Jumper Wires
+
+## Connections
+
+| Component | Pin |
+|-----------|-----|
+| Red LED | D8 |
+| Yellow LED | D9 |
+| Green LED | D10 |
+| Button | D7 |
+
+## Working Principle
+
+The traffic signal follows the sequence:
+
+RED → YELLOW → GREEN
+
+A pedestrian button connected to pin D7 allows pedestrians to request crossing. When pressed, the system immediately switches to RED and holds it for 8 seconds.
+
+## Serial Output Example
+
+```text
+[0 ms] RED
+[5000 ms] YELLOW
+[7000 ms] GREEN
+[11000 ms] Pedestrian Crossing - RED
