@@ -1,0 +1,22 @@
+# Smart Vending Machine State Machine
+
+## Objective
+Simulate a simple vending machine using buttons and LEDs.
+
+## Components
+- Arduino UNO
+- 3 Push Buttons
+- LED
+- 220Ω Resistor
+
+## Features
+- Coin insertion
+- Product selection
+- Balance checking
+- Product dispensing indication
+
+## Concepts Used
+- State Machines
+- Digital Inputs
+- Serial Communication
+- Embedded System Logic
