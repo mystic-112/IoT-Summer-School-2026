@@ -11,6 +11,7 @@ DHTesp dht;
 // dht11 data pin
 const int DHT_PIN = 15;
 
+
 // environmental sensing service
 #define SERVICE_UUID "0000181A-0000-1000-8000-00805F9B34FB"
 
