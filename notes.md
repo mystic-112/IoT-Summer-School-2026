@@ -11,3 +11,4 @@ Contains all sensor-related development such as DHT11 interfacing, data acquisit
 
 ## wireless-module
 Contains Bluetooth Low Energy (BLE) communication, GATT services, characteristics, descriptors, and wireless data transmission.
+
